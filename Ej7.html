@@ -1,0 +1,22 @@
+<!DOCTYPE  html>
+<html>
+<body>
+<script>
+let  marca,modelo,descuento  =  0;
+
+modelo  =  prompt("Que edad tienes?",  "0");
+
+if  (modelo > 1 && modelo <120)
+{
+descuento  = "No puedes acceder";
+}
+
+if  (modelo == 18)
+{
+descuento  =  "Si puede acceder, Adelante...";
+}
+
+document.write(`<h3> ${descuento}  </h3>`);
+</script>
+</body>
+</html>
